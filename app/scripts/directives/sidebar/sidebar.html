@@ -1,0 +1,39 @@
+<div class="navbar-default sidebar navbar-collapse" role="navigation">
+    <div class="sidebar-nav ">
+        <ul class="nav in" id="side-menu">
+            <li ui-sref-active="active">
+                <a ui-sref="leads.home"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+            </li>
+            <li ng-class="{active: collapseVar==1}">{{dropDown}}
+                <a ng-click="check(1)"><i class="fa fa-wrench fa-fw"></i> Match<span
+                        class="fa arrow"></span></a>
+                <ul class="nav nav-second-level" ng-show="collapseVar == 1">
+                    <li ui-sref-active="active">
+                        <a ui-sref="leads.add-leads"><i class="fa fa-plus"></i> Add Match</a>
+                    </li>
+                    <!--<li ui-sref-active="active">
+                        <a ui-sref="leads.manage-leads">Edit Lead</a>
+                    </li>-->
+                    <li ui-sref-active="active">
+                        <a ui-sref="leads.all">Manage Match</a>
+                    </li>
+                    <!--<li ui-sref-active="active">
+                        <a ui-sref="leads.customers">My Customers</a>
+                    </li>-->
+                </ul>
+            </li>
+            <li ng-class="{active: collapseVar==2}">{{dropDown}}
+                <a ng-click="check(2)"><i class="fa fa-check-square-o fa-fw"></i> Bookings<span
+                        class="fa arrow"></span></a>
+                <ul class="nav nav-second-level" ng-show="collapseVar == 2">
+                    <li ui-sref-active="active">
+                        <a ui-sref="booking.manage-booking">Bookings List</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+

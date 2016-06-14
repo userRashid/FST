@@ -1,0 +1,137 @@
+.right-inner-addon{position: relative;}
+.right-inner-addon i{   position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+.m0{margin:0px}
+.timeline-panel{
+    position:relative;
+}
+.timeline-panel:hover .timeline-heading-edit{
+    visibility : visible;
+}
+.timeline-heading-edit{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    visibility : hidden;
+    padding: 3px 0 3px 3px;
+    font-size:18px;
+}
+.timeline-heading{
+    margin-right: 30px;
+}
+.dashboard-link{ cursor:pointer}
+.add-leads{
+    background:#eee;
+}
+.cursor-p{ cursor:pointer}
+.edit-lead{ visibility:hidden}
+.leads:hover .edit-lead{ visibility:visible}
+.m-t20{margin-top:20px;}
+.m-t25{margin-top:25px;}
+.m-b25{margin-bottom:25px;}
+.f30{ font-size:30px}
+.buttonM{ margin:20px 30px}
+.md-button.md-primary.md-raised{ background:#5cb85c}
+.addMore{}
+.addMore > button{ border-radius : 50%;
+                      border: none;
+                      cursor: pointer;
+                      float: left;
+                      font-size: 22px;
+                      height: 30px;
+                      margin: 2px 0 0;
+                      padding: 0;
+                      width:30px;}
+.addMore > input{width: 50px;
+                     float: left;
+                     margin: 0 10px;
+                     font-weight: bold;
+                     font-size: 19px;
+                     text-align: center;}
+.p10{ padding:10px;}
+.b0{border:0px}
+.st-sort-ascent:before {
+    content: '\25B2';
+}
+
+.st-sort-descent:before {
+    content: '\25BC';
+}
+
+.lr-drop-target-before{
+  border-left: 2px solid orange;
+}
+
+.lr-drop-target-after{
+  border-right: 2px solid orange;
+}
+#page-wrapper{ margin-top:50px;}
+body{background:#fff;}
+.sidebar{height:650px;border-right: 1px solid #ccc;}
+#page-wrapper{ border:0px;}
+.add-hotel{border:1px solid #ccc}
+.add-hotel label{font-weight:normal !important; font-size:12px}
+.add-hotel input,.add-hotel select{padding: 2px 5px;
+     height: 25px;}
+.add-hotel .form-group{ margin-bottom:10px;}
+.pos-r{ position:relative}
+.add-hotel-btn{ position: absolute; bottom:10px;right: 30px;}
+
+.pad button{ padding:10px 25px}
+.pad{ padding:0 0 10px}
+.m-heading{margin:0px 0 10px}
+.bor-r{ border-right: 2px solid #ccc}
+.mar-l{ margin-left:20px}
+.col-blue{ color:#337ab7}
+.bor-2{ border-bottom: 2px solid #ccc}
+.item{ padding:10px; color:#333; margin:0 0 10px}
+.odd{ background:#f8f8f8}
+.p-t15{ padding-top:15px;}
+.p-b15{ padding-bottom:15px;}
+.nav > li > a{ cursor:pointer}
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: 740px;
+}
+.bookingStatus,_bookingStatus{ margin:10px 0 0 0; cursor:pointer;}
+._bookingStatus > i{ margin:0 5px; font-size:18px;}
+.bookingStatus:hover > i{ visibility:visible}
+.bookingStatus > i{ margin:0 5px; color:#337ab7; font-size:20px; cursor:pointer; visibility:hidden}
+.navbar-brand{ padding:2px;}
+.copyright{ border-top: 1px solid #ccc;
+               bottom: 0;
+               padding: 10px 0;
+               position: fixed;
+               text-align: center;
+               width: 78%;
+               background: #fff}
+
+
+.pad button{ padding:10px 25px}
+.btn{ button-border: 0px}
+.pad{ padding: 20px}
+.bor-l{ border-left: 2px solid #ccc}
+.mar-l{ margin-left:20px}
+.col-blue{ color:#00F}
+.m-t40{ margin: 40px 0 0 0}
+.fontcol h2{ color: #048db4}
+.book b{ font-size:18px}
+.tripcol h3{ color: #f79459}
+.bor-r{ border-right: 2px solid #ccc}
+.sold b{ font-size:25px}
+.m-t10{ margin: 10px 0 0 0}
+.black-bor{ border-bottom: 2px solid #000;}
+.splook b{ font-size:24px}
+.splook p{ color :#f79459; font-size: 15px}
+.forside{ border: 2px solid #CCC; margin-top: 30px; width: 450px}
+.mside{ margin-left: 10px}
+.borbottm{ border-bottom: 5px dotted #000;}
+.mt30{ margin-bottom: 30px}
+.pZero {padding : 0px}
+.txtArea {width : 100% ;resize:none}
+
+/* new style*/
+
+.form-control{background:#fff !important}
