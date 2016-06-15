@@ -2,24 +2,46 @@
     <div class="sidebar-nav ">
         <ul class="nav in" id="side-menu">
             <li ui-sref-active="active">
-                <a ui-sref="leads.home"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                <a ui-sref="home"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
             </li>
-            <li ng-class="{active: collapseVar==1}">{{dropDown}}
+            <li ui-sref-active="active">
+                <a ui-sref="home.content"><i class="fa fa-dashboard fa-fw"></i> Content</a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="home.coupon"><i class="fa fa-dashboard fa-fw"></i> Coupon</a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="home.match"><i class="fa fa-dashboard fa-fw"></i> Match</a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="home.partner"><i class="fa fa-dashboard fa-fw"></i> Partner</a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="home.question"><i class="fa fa-dashboard fa-fw"></i> Question</a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="home.quiz"><i class="fa fa-dashboard fa-fw"></i> Quiz</a>
+            </li>
+            <li ui-sref-active="active">
+                <a ui-sref="home.tournament"><i class="fa fa-dashboard fa-fw"></i> Tournament</a>
+            </li>
+
+            <!--<li ng-class="{active: collapseVar==1}">{{dropDown}}
                 <a ng-click="check(1)"><i class="fa fa-wrench fa-fw"></i> Match<span
                         class="fa arrow"></span></a>
                 <ul class="nav nav-second-level" ng-show="collapseVar == 1">
                     <li ui-sref-active="active">
                         <a ui-sref="leads.add-leads"><i class="fa fa-plus"></i> Add Match</a>
                     </li>
-                    <!--<li ui-sref-active="active">
+                    &lt;!&ndash;<li ui-sref-active="active">
                         <a ui-sref="leads.manage-leads">Edit Lead</a>
-                    </li>-->
+                    </li>&ndash;&gt;
                     <li ui-sref-active="active">
                         <a ui-sref="leads.all">Manage Match</a>
                     </li>
-                    <!--<li ui-sref-active="active">
+                    &lt;!&ndash;<li ui-sref-active="active">
                         <a ui-sref="leads.customers">My Customers</a>
-                    </li>-->
+                    </li>&ndash;&gt;
                 </ul>
             </li>
             <li ng-class="{active: collapseVar==2}">{{dropDown}}
@@ -30,7 +52,7 @@
                         <a ui-sref="booking.manage-booking">Bookings List</a>
                     </li>
                 </ul>
-            </li>
+            </li>-->
         </ul>
     </div>
 </div>
