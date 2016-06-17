@@ -1,58 +1,72 @@
 <div class="navbar-default sidebar navbar-collapse" role="navigation">
     <div class="sidebar-nav ">
         <ul class="nav in" id="side-menu">
-            <li>
-                <a ui-sref="home"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
-            </li>
-            <li ui-sref-active="active">
-                <a ui-sref="home.content"><i class="fa fa-file-text-o fa-fw"></i> Content</a>
-            </li>
-            <li ui-sref-active="active">
-                <a ui-sref="home.coupon"><i class="fa fa-money fa-fw"></i> Coupon</a>
-            </li>
-            <li ui-sref-active="active">
-                <a ui-sref="home.match"><i class="fa fa-trophy fa-fw"></i> Match</a>
-            </li>
-            <li ui-sref-active="active">
-                <a ui-sref="home.partner"><i class="fa fa-users fa-fw"></i> Partner</a>
-            </li>
-            <li ui-sref-active="active">
-                <a ui-sref="home.question"><i class="fa fa-question-circle fa-fw"></i> Question</a>
-            </li>
-            <li ui-sref-active="active">
-                <a ui-sref="home.quiz"><i class="fa fa-list-alt fa-fw"></i> Quiz</a>
-            </li>
-            <li ui-sref-active="active">
-                <a ui-sref="home.tournament"><i class="fa fa fa-gamepad fa-fw"></i> Tournament</a>
-            </li>
-
-            <!--<li ng-class="{active: collapseVar==1}">{{dropDown}}
-                <a ng-click="check(1)"><i class="fa fa-wrench fa-fw"></i> Match<span
+            <li ng-class="{active: collapseVar==1}">
+                <a ng-click="check(1)"><i class="fa fa-question-circle fa-fw"></i> Question<span
                         class="fa arrow"></span></a>
                 <ul class="nav nav-second-level" ng-show="collapseVar == 1">
                     <li ui-sref-active="active">
-                        <a ui-sref="leads.add-leads"><i class="fa fa-plus"></i> Add Match</a>
+                        <a ui-sref="question.add"><i class="fa fa-plus"></i>Add</a>
                     </li>
-                    &lt;!&ndash;<li ui-sref-active="active">
-                        <a ui-sref="leads.manage-leads">Edit Lead</a>
-                    </li>&ndash;&gt;
                     <li ui-sref-active="active">
-                        <a ui-sref="leads.all">Manage Match</a>
+                        <a ui-sref="question.manage">Manage</a>
                     </li>
-                    &lt;!&ndash;<li ui-sref-active="active">
-                        <a ui-sref="leads.customers">My Customers</a>
-                    </li>&ndash;&gt;
                 </ul>
             </li>
-            <li ng-class="{active: collapseVar==2}">{{dropDown}}
-                <a ng-click="check(2)"><i class="fa fa-check-square-o fa-fw"></i> Bookings<span
+            <li ng-class="{active: collapseVar==2}">
+                <a ng-click="check(2)"><i class="fa fa-trophy fa-fw"></i> Tournament<span
                         class="fa arrow"></span></a>
                 <ul class="nav nav-second-level" ng-show="collapseVar == 2">
                     <li ui-sref-active="active">
-                        <a ui-sref="booking.manage-booking">Bookings List</a>
+                        <a ui-sref="tournament.add"><i class="fa fa-plus"></i>Add</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="tournament.manage">Manage</a>
                     </li>
                 </ul>
-            </li>-->
+            </li>
+            <li ng-class="{active: collapseVar==4}">
+                <a ng-click="check(4)"><i class="fa fa-users fa-fw"></i> Partner<span
+                        class="fa arrow"></span></a>
+                <ul class="nav nav-second-level" ng-show="collapseVar == 4">
+                    <li ui-sref-active="active">
+                        <a ui-sref="partner.add"><i class="fa fa-plus"></i>Add</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="partner.manage">Manage</a>
+                    </li>
+                </ul>
+            </li>
+            <li ng-class="{active: collapseVar==5}">
+                <a ng-click="check(5)"><i class="fa fa-money fa-fw"></i> Coupon<span
+                        class="fa arrow"></span></a>
+                <ul class="nav nav-second-level" ng-show="collapseVar == 5">
+                    <li ui-sref-active="active">
+                        <a ui-sref="coupon.create"><i class="fa fa-plus"></i>Create/Upload</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="coupon.view">View</a>
+                    </li>
+                </ul>
+            </li>
+            <li ng-class="{active: collapseVar==3}">
+                <a ng-click="check(3)"><i class="fa fa fa-gamepad fa-fw"></i> Match<span
+                        class="fa arrow"></span></a>
+                <ul class="nav nav-second-level" ng-show="collapseVar == 3">
+                    <li ui-sref-active="active">
+                        <a ui-sref="match.add"><i class="fa fa-plus"></i>Add</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="match.manage">Manage</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="prediction.add"><i class="fa fa-plus"></i>Add Prediction</a>
+                    </li>
+                    <li ui-sref-active="active">
+                        <a ui-sref="prediction.manage">Manage Prediction</a>
+                    </li>
+                </ul>
+            </li>
         </ul>
     </div>
 </div>
